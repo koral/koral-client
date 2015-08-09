@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/koral/koral-client/issues"
   },
-  "homepage": "https://github.com/koral/koral-client#readme"
+  "homepage": "https://github.com/koral/koral-client#readme",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "dotenv": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0"
+  }
 }
