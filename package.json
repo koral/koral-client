@@ -1,0 +1,19 @@
+{
+  "name": "koral-client",
+  "version": "0.0.1",
+  "description": "The desktop client for Koral",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koral/koral-client.git"
+  },
+  "author": "Gabriele Cirulli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koral/koral-client/issues"
+  },
+  "homepage": "https://github.com/koral/koral-client#readme"
+}
