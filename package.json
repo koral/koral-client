@@ -4,7 +4,7 @@
   "description": "The desktop client for Koral",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/koral/koral-client#readme",
   "dependencies": {
     "babel": "^5.8.21",
-    "dotenv": "^1.2.0"
+    "dotenv": "^1.2.0",
+    "invariant": "^2.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
