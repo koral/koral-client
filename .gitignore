@@ -4,3 +4,6 @@
 # Ignore node modules and NPM logs
 /node_modules
 npm-debug.log
+
+# Ignore the precompiled source (/lib)
+/lib

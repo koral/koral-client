@@ -13,7 +13,7 @@ function ensureWorkDirectoryPresence() {
   );
 
   try {
-    var stats = fs.statSync(workDirectory);
+    let stats = fs.statSync(workDirectory);
 
     invariant(
       stats.isDirectory(),

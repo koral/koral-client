@@ -4,7 +4,7 @@
   "description": "The desktop client for Koral",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/index.js"
+    "start": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
-    "eslint": "^1.1.0"
+    "eslint": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3",
+    "kexec": "^1.2.0",
+    "nodemon": "^1.4.0"
   }
 }
