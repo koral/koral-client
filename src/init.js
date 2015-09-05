@@ -4,6 +4,13 @@
 import fs from "fs";
 import invariant from "invariant";
 
+import watch from "./watch";
+
+export default function () {
+  ensureWorkDirectoryPresence();
+  watch();
+}
+
 function ensureWorkDirectoryPresence() {
   var workDirectory = process.env.WORK_DIRECTORY;
 
@@ -24,8 +31,4 @@ function ensureWorkDirectoryPresence() {
 
     fs.mkdirSync(workDirectory);
   }
-}
-
-export default function () {
-  ensureWorkDirectoryPresence();
 }
